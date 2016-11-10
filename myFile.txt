@@ -1,1 +1,19 @@
-nnnnn
+class uni
+{
+  public static void main(String[] ar)
+   {
+     String s1="aaaaaaaa";int count=0;
+         int l=s1.length();
+         char a=s1.charAt(0);
+          for(int i=1;i<=(l-1);i++)
+          {
+              char b=s1.charAt(i);
+              if(a==b)
+                 count++;
+              else
+                 System.out.println("not unique");
+            }
+            if(count==(l-1))
+           System.out.println("all are unique");
+     }
+}
